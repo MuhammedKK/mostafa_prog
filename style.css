@@ -1,0 +1,71 @@
+/* Main Rules */
+* {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+
+/* Personal Info */
+.personal-info, .Select-pic, .date-files, .more-info, .second-info, .family-info, .house-info, .work-info, .how-you-know {
+    margin: 30px 0;
+}
+.personal-info fieldset, .Select-pic fieldset, .date-files fieldset, .more-info fieldset, .second-info fieldset, .family-info fieldset, .house-info fieldset, .work-info fieldset, .how-you-know fieldset {
+    background-color:#ff0;
+    padding:10px;
+}
+
+.personal-info fieldset > div, .date-files fieldset > div {
+    margin-bottom:10px;
+    
+}
+
+.personal-info fieldset > div label {
+    margin-left:10px;
+}
+
+/* Select Pic */
+
+.Select-pic fieldset > p, .date-files fieldset > p {
+    margin: 10px 0; 
+}
+
+/* More Info */
+
+.more-info .item {
+    margin-bottom:15px;
+}
+
+.more-info .item > div, .second-info .item > div, .family-info .item > div, .house-info .item > div, .work-info .item > div {
+    margin-bottom:10px;
+}
+
+.more-info .item  div label, .second-info .item > div label, .family-info .item > div label, .house-info .item > div label, .work-info .item > div label {
+    width: 135px;
+    display: inline-block;
+}
+
+/* How You Know */
+
+.how-you-know .item {
+    display: inline-block;
+    margin-left:15px;
+}
+
+.how-you-know .item label {
+    margin-right:10px;
+}
+
+@media (max-width:767px) {
+    .how-you-know .item {
+        display: block;
+        margin-bottom:10px;
+    }
+}
+
+input[type="submit"] {
+    padding: 10px;
+    margin-right: 20px;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
